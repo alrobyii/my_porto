@@ -1,0 +1,16 @@
+#using command promt
+
+>py -m venv env
+
+>env\Scripts\activate
+
+>pip install flask
+
+>python.exe -m pip install --upgrade pip
+
+create python script 
+>set FLASK_APP=server.py
+
+>set FLASK_ENV=development
+
+>flask run
